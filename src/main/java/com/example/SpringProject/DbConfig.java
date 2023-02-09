@@ -13,7 +13,7 @@ public class DbConfig {
         }else{
             String driver= "com.mysql.cj.jdbc.Driver";
             String url="jdbc:mysql://localhost:3306/springconnect" ;
-            String user="root";
+            String user="user";
             String password="";
             try{
                 Class.forName(driver);
